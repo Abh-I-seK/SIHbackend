@@ -12,7 +12,7 @@ const Blogs=require('./db/Blogs');
 const { authenticate,Secret } =require('./middleware/script');
 const cors=require('cors');
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://mentalhealth-76gy.onrender.com",
 }));
 
 
