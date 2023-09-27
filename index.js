@@ -11,9 +11,7 @@ const User=require('./db/User');
 const Blogs=require('./db/Blogs');
 const { authenticate,Secret } =require('./middleware/script');
 const cors=require('cors');
-app.use(cors({
-  origin:"https://mentalhealth-76gy.onrender.com",
-}));
+app.use(cors());
 
 
 app.post("/signup", async (req, res) => {
